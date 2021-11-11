@@ -1,0 +1,136 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+         Version R-2020.09-SP2-2 for linux64 - Jan 28, 2021 cl#6206082
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -icc2 -f NDM -i FA_SYN.ndm -p /home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA -c fulladd_io -clf /home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA/DRC/slnFile.txt -icc_density_blockage -icc2_error_categories -I /home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA/DRC -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -rc /home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA/DRC/signoff_check_drc.rc -I /home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA/DRC /home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA/ICVLM18_LM16_LM152_6M.215a_pre041518 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        nanoelectronica2021
+Layout format:    NDM
+Input file name:  FA_SYN.ndm
+Top cell name:    fulladd_io
+Time started:     2021/09/01 06:21:49PM
+Time ended:       2021/09/01 06:22:10PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+192 total rules were run.
+226 rules NOT EXECUTED.
+6 rules have violations.
+There are 6 total violations.
+Refer to fulladd_io.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 75
+ Empty Utilized Assign Layers = 64
+ Non-Empty Utilized Assign Layers = 11
+Pruned Assign Layers = 54
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/nanoelectronica2021"
+ICV_HOME_DIR = "/usr/synopsys/icvalidator/R-2020.09-SP2-2"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+LM_LICENSE_FILE = "27020@192.168.6.124"
+PATH = "/usr/synopsys/icvalidator/R-2020.09-SP2-2/bin/LINUX64_L31el:/usr/synopsys/icvalidator/R-2020.09-SP2-2/contrib/bin/LINUX64_L31el:/usr/synopsys/wv/R-2020.12-1/bin:/usr/synopsys/mw/Q-2019.12-SP5-4/bin/linux64:/usr/synopsys/verdi/P-2019.06-SP2-11/bin:/usr/synopsys/syn/R-2020.09-SP3/bin:/usr/synopsys/vcs/Q-2020.03-SP2-3/bin:/usr/synopsys/starrc/R-2020.09-SP3/bin:/usr/synopsys/icvalidator/R-2020.09-SP2-2/bin:/usr/synopsys/fm/R-2020.09-SP3/bin:/usr/synopsys/nt/R-2020.09-SP3/bin:/usr/synopsys/icc2/S-2021.06-SP1/bin:/usr/synopsys/icc/R-2020.09-SP3/bin:/usr/synopsys/hspice/R-2020.12-1/hspice/bin:/usr/synopsys/customcompiler/R-2020.12-1/bin:/usr/synopsys/installer:/usr/synopsys/PyCell/plat_linux_gcc73_64/3rd/bin:/usr/synopsys/PyCell/plat_linux_gcc73_64/3rd/oa/bin/linux_rhel40_gcc73_64/opt:/usr/synopsys/PyCell/plat_linux_gcc73_64/bin:/usr/synopsys/PyCell/bin:/usr/synopsys/wv/R-2020.12-1/bin:/usr/synopsys/mw/Q-2019.12-SP5-4/bin/linux64:/usr/synopsys/verdi/P-2019.06-SP2-11/bin:/usr/synopsys/syn/R-2020.09-SP3/bin:/usr/synopsys/vcs/Q-2020.03-SP2-3/bin:/usr/synopsys/starrc/R-2020.09-SP3/bin:/usr/synopsys/icvalidator/R-2020.09-SP2-2/bin:/usr/synopsys/fm/R-2020.09-SP3/bin:/usr/synopsys/nt/R-2020.09-SP3/bin:/usr/synopsys/icc2/S-2021.06-SP1/bin:/usr/synopsys/icc/R-2020.09-SP3/bin:/usr/synopsys/hspice/R-2020.12-1/hspice/bin:/usr/synopsys/customcompiler/R-2020.12-1/bin:/usr/synopsys/installer:/usr/synopsys/PyCell/plat_linux_gcc73_64/3rd/bin:/usr/synopsys/PyCell/plat_linux_gcc73_64/3rd/oa/bin/linux_rhel40_gcc73_64/opt:/usr/synopsys/PyCell/plat_linux_gcc73_64/bin:/usr/synopsys/PyCell/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/nanoelectronica2021/.local/bin:/home/nanoelectronica2021/bin"
+SNPSLMD_LICENSE_FILE = "27020@192.168.6.254"
+USER = "nanoelectronica2021"
+
+7 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/home/nanoelectronica2021/Documentos/Sintesis_Fisica_FA/DRC/tech.tf"
+
+1 debug environment variable set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ uvgiemtbmj31309 (2/6)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+   CPU:   6 cpu 3899 MHz
+   Cores: 6 
+   RAM:   7.465 GB
+   Swap:  1.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:21
+Peak Single Command Memory = 0.413 GB
+Peak Disk Usage = 0.008 GB
+Network Disk Usage Peak=0.028 GB (no group)
+Group File Disk Usage Peak=0.007 GB
+
+Distributed Host Memory Usage
+ uvgiemtbmj31309 (2/6)  ....  Average=0.000 GB, Peak=0.987 GB / 7.465 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.
